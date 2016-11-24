@@ -355,9 +355,13 @@ section.cta .overlay {
 }
 section.contact {
   text-align: center;
+  height: auto;
+  background-color: #FAAE17;
+  padding-bottomn: 150px;
+  padding-top: 150px;
 }
 section.contact h2 {
-  margin-top: 0;
+  margin-top: 200px;
   margin-bottom: 25px;
 }
 section.contact h2 i {
@@ -394,9 +398,9 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #222222;
+  background-color: #220B0D;
   padding: 25px 0;
-  color: rgba(255, 255, 255, 0.3);
+  color: #F4C976;
   text-align: center;
 }
 footer p {
@@ -408,13 +412,14 @@ footer ul {
 }
 footer ul li a {
   font-size: 1em;
-  color: rgba(255, 255, 255, 0.3);
+  color: #F4C976;
 }
 footer ul li a:hover,
 footer ul li a:focus,
 footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
+  color: #fff;
 }
 footer i {
   color: red;
@@ -579,7 +584,7 @@ body {
 }
 
 #team {
-  background-color: #F4C976;
+  background-color: #FAAE17;
   color: #fff;
 }
 
@@ -589,4 +594,16 @@ body {
 
 #faq {
   color: #220B0D;
+}
+
+#contact {
+  color: #fff;
+  background-image: url("../images/contactus.png");
+  background-color: #FAAE17;
+  background-position: center;
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+  /*position: absolute;*/
 }
