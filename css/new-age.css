@@ -361,11 +361,14 @@ section.contact {
   padding-top: 150px;
 }
 section.contact h2 {
-  margin-top: 300px;
+  margin-top: 100px;
   margin-bottom: 25px;
 }
 section.contact h2 i {
   color: #dd4b39;
+}
+section.contact p {
+  margin-bottom: 220px;
 }
 section.contact ul.list-social {
   margin-bottom: 0;
